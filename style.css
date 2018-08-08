@@ -1,0 +1,167 @@
+html, body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.header-home {
+    background-image: url("img/headerbg1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 750px;
+    line-height: 300px;
+    width: 100%;
+}
+
+.main {
+    background-color: #eeeeee;
+    border-top: 2px solid #c0c0c0;
+    padding-bottom: 100px;
+}
+
+.uoftlogo {
+    background-image: url("img/uoftlogo.png");
+    background-size: 150px auto;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 100px;
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+
+.uoftlogo-footer {
+    background-image: url("img/uoftlogo.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+
+.navbar {
+    padding: 0 50px;
+    background: #fdfdfd;
+}
+
+.nav-item {
+    text-align: center;
+    min-width: 80px;
+    color: black;
+}
+
+.nav-item > .nav-link:hover {
+    border-bottom: 2px solid #aaaaaa;
+    color: #aaaaaa;
+}
+
+.nav-link {
+    font-family: Roboto;
+    color: #555555;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.intro {
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 60%;
+}
+
+.intro-header, .recent-news-header {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+.intro-content {
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.recent-news {
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 60%;
+}
+
+.footer {
+    font-family: 'PT Sans', Arial, sans-serif;
+    height: 400px;
+    background: #002554;
+}
+
+.footer-left-header {
+    color: white;
+    font-weight: 400;
+    padding: 30px 0;
+}
+
+.footer-left {
+    color: white;
+    font-weight: 300;
+    line-height: 200%;
+    border-right: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+.footer-mid {
+    color: white;
+    font-weight: 300;
+    line-height: 200%;
+}
+
+.footer-content {
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.recent-news-placeholder {
+    margin: 20px auto;
+    border: 2px solid #bbbbbb;
+    height: 300px;
+    width: 100%;
+    background: #dddddd;
+}
+
+.recent-news-title {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 15px 10px;
+}
+
+.recent-news-content {
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 10px;
+}
+
+#recent-news-1, #recent-news-2, #recent-news-3 {
+    padding: 0 20px;
+}
+
+#headerText {
+    text-align: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #e3e3e3;
+    height: 650px;
+    line-height: 550px;
+    font-size: 30px;
+}
+
+@media screen and (min-width: 500px) {
+    #headerText {
+        font-size: 70px;
+    }
+}
