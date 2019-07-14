@@ -1,2 +1,2 @@
 # phy-site-demo
-Demo site for Planetary Science Research Group
+Static demo site for Planetary Science Research Group. Preview at https://rwhs.github.io/phy-site-demo/
